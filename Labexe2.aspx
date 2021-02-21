@@ -21,7 +21,7 @@
                 </tr>
                  <tr>
                     <td>
-                        <asp:DropDownList ID="DDLname" runat="server" DataSourceID="SqlDataSource1" DataTextField="staffName" DataValueField="employeeID">
+                        <asp:DropDownList ID="DDLname" runat="server" DataSourceID="SqlDataSource1" DataTextField="staffName" DataValueField="employeeID" AutoPostBack="True">
                         </asp:DropDownList>
                     </td>
                     <td>
